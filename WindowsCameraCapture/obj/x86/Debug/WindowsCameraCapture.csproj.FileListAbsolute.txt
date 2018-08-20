@@ -40,3 +40,12 @@ E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapt
 E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
 E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csproj.GenerateResource.Cache
 E:\PBL\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe.config
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe.config
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.exe
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.pdb
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Form1.resources
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe
+C:\Users\student\Desktop\PBL\Robot_PBL\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.pdb

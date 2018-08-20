@@ -23,7 +23,7 @@ namespace WindowsCameraCapture
         public Form1()
         {
             InitializeComponent();
-            capture = CvCapture.FromCamera(0);
+            capture = CvCapture.FromCamera(1);
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace WindowsCameraCapture
             // Setting framewidth and FrameHeight. In this case, framewidht is 320, and frameheight is 240.
             Cv.SetCaptureProperty(capture, CaptureProperty.FrameWidth, 320);
             Cv.SetCaptureProperty(capture, CaptureProperty.FrameHeight, 240);
-            textBox1.Text = br.OpenCOMPort("COM7");
+            textBox1.Text = br.OpenCOMPort("COM11");
 
             // タイマーをスタート. Timer starts.
             timer1.Start();
@@ -40,36 +40,22 @@ namespace WindowsCameraCapture
             // 開始ボタンを使えないようにする Disable start button.
             buttonStart.Enabled = false;
         }
-        //private int ConvertToBmp(CvColor center)
-        //{
-        //    if (center.R < 70 && center.B < 70 && center.G > 80)
-        //    {
-        //        return 1;
-        //    }
-        //    else
-        //    {
-        //        return 0;
-        //    }
-        //}
-       
-        private int detect(IplImage ipl2, int a ,int b)
+
+        private int detectDots(CvColor[] cv)
         {
             int sum = 0;
-            for (int y = 0; y < ipl2.Height; y++)
+            for (int i = 0; i < cv.Length; i++)
             {
-                for (int x = ipl2.Width/7*a; x < ipl2.Width / 7 * b; x++)
+                CvColor c = cv[i];
+                 
+                // Red color extraction
+                // If the pixel is red-like, the image is white, else black.
+                if (c.R > 80 && c.G < 70 && c.B < 70)
                 {
-                    CvColor c = ipl2[y, x];
-
-                    // Red color extraction
-                    // If the pixel is red-like, the image is white, else black.
-                    if (c.R < 30 && c.G < 30 && c.B > 50)
-                    {
-                        sum++;
-                    }
+                    sum++;
                 }
             }
-            return (sum-40>0?1:0);
+            return (sum-1>0?1:0);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -97,12 +83,14 @@ namespace WindowsCameraCapture
 
                 // Extract red color
 
-                CvColor center = ipl1[120, 160];
-                CvColor left =  ipl1[120, 0];
-                CvColor right = ipl1[119, 319];
-                int centerInt = detect(ipl1,1,6);
-                int leftInt = detect(ipl1,0,1);
-                int rightInt = detect(ipl1,6,7);
+
+                CvColor[] center = { ipl1[120, 160], ipl1[120, 165], ipl1[120, 155], ipl1[115, 160], ipl1[125, 160] };
+                CvColor[] left   = { ipl1[120, 0], ipl1[120, 10], ipl1[115, 0], ipl1[125, 0], ipl1[125, 10], ipl1[115, 10] };
+                CvColor[] right  = { ipl1[120, 319], ipl1[120, 310], ipl1[115, 310], ipl1[115, 319], ipl1[125, 319], ipl1[125, 310] };
+
+                int centerInt = detectDots(center);
+                int leftInt = detectDots(left);
+                int rightInt = detectDots(right);
 
                 for (int y = 0; y < ipl1.Height; y++)
                 {
@@ -111,7 +99,7 @@ namespace WindowsCameraCapture
                         CvColor c = ipl1[y, x];
                         // Red color extraction
                         // If the pixel is red-like, the image is white, else black.
-                        if (c.R < 30 && c.G < 30 && c.B > 50)
+                        if (c.R > 80 && c.G < 70 && c.B < 70)
                         {
                             ipl1[y, x] = new CvColor()
                             {
