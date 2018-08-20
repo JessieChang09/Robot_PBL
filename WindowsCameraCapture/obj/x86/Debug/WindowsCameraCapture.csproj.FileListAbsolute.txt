@@ -1,0 +1,42 @@
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\OpenCvSharp.dll
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Form1.resources
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\OpenCVSharpFor2_2\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\OpenCvSharp.dll
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Form1.resources
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\matsu\Documents\Visual Studio 2010\Projects\VisualC#\BeautoRover\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csprojResolveAssemblyReference.cache
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Form1.resources
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csproj.GenerateResource.Cache
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.pdb
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\OpenCvSharp.xml
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\OpenCvSharp.CPlusPlus.xml
+C:\Users\matsu\Desktop\WindowsCameraCapture\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\OpenCvSharp.Extensions.xml
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.exe
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.pdb
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.pdb
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csprojResolveAssemblyReference.cache
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Form1.resources
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.Properties.Resources.resources
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\obj\x86\Debug\WindowsCameraCapture.csproj.GenerateResource.Cache
+E:\PBL\WindowsCameraCapture\WindowsCameraCapture\bin\Debug\WindowsCameraCapture.exe.config
