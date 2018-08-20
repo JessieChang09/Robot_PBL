@@ -23,7 +23,7 @@ namespace WindowsCameraCapture
         public Form1()
         {
             InitializeComponent();
-            capture = CvCapture.FromCamera(1);
+            capture = CvCapture.FromCamera(0);
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
@@ -31,7 +31,7 @@ namespace WindowsCameraCapture
             // Setting framewidth and FrameHeight. In this case, framewidht is 320, and frameheight is 240.
             Cv.SetCaptureProperty(capture, CaptureProperty.FrameWidth, 320);
             Cv.SetCaptureProperty(capture, CaptureProperty.FrameHeight, 240);
-            textBox1.Text = br.OpenCOMPort("COM3");
+            textBox1.Text = br.OpenCOMPort("COM7");
 
             // タイマーをスタート. Timer starts.
             timer1.Start();
@@ -63,7 +63,7 @@ namespace WindowsCameraCapture
 
                     // Red color extraction
                     // If the pixel is red-like, the image is white, else black.
-                    if (c.R>25 && c.R < 50 && c.B>5 && c.B < 50 && c.G>70 && c.G <180)
+                    if (c.R < 30 && c.G < 30 && c.B > 50)
                     {
                         sum++;
                     }
@@ -76,8 +76,7 @@ namespace WindowsCameraCapture
         {
             // キャプチャの開始. Capture starts.
             IplImage ipl1 = capture.QueryFrame();
-            IplImage ipl2 = null;
-            Cv.CvtColor(ipl1, ipl2, ColorConversion.BgrToHsv);
+            //Cv.CvtColor(ipl1, ipl2, ColorConversion.BgrToHsv);
             // 取得したカメラ画像の高さと幅を取得し、labelに表示. Height and width of camera are shown in label.
             labelWidth.Text = capture.FrameWidth.ToString();
             labelHeight.Text = capture.FrameHeight.ToString();
@@ -98,12 +97,12 @@ namespace WindowsCameraCapture
 
                 // Extract red color
 
-                CvColor center = ipl2[120, 160];
-                CvColor left =  ipl2[120, 0];
-                CvColor right = ipl2[119, 319];
-                int centerInt = detect(ipl2,1,6);
-                int leftInt = detect(ipl2,0,1);
-                int rightInt = detect(ipl2,6,7);
+                CvColor center = ipl1[120, 160];
+                CvColor left =  ipl1[120, 0];
+                CvColor right = ipl1[119, 319];
+                int centerInt = detect(ipl1,1,6);
+                int leftInt = detect(ipl1,0,1);
+                int rightInt = detect(ipl1,6,7);
 
                 for (int y = 0; y < ipl1.Height; y++)
                 {
@@ -112,7 +111,7 @@ namespace WindowsCameraCapture
                         CvColor c = ipl1[y, x];
                         // Red color extraction
                         // If the pixel is red-like, the image is white, else black.
-                        if (c.R > 25 && c.R < 50 && c.B > 5 && c.B < 50 && c.G > 70 && c.G > 80)
+                        if (c.R < 30 && c.G < 30 && c.B > 50)
                         {
                             ipl1[y, x] = new CvColor()
                             {
